@@ -1,11 +1,28 @@
-import "./Layout.css";
+.Layout {
+	max-width: 789px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
 
-export default function App(){
-	return (
-		<div className="App">
-		<nav>
-		<NavLink to="/">Home</NavLink>
-		<NavLink to="/about">About</NavLink>
-		</nav>
-	);
+.Layout header {
+	flex-basis: 100%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: antiquewhite;
+}
+
+.Layout aside {
+	flex: 20% 0 0;
+	background-color: blue;
+}
+
+.Layout main {
+	flex: 80% 1 1;
+	background-color: violet;
+}
+
+.Layout footer {
+	flex: 100% 0 0;
+	background-color: red;
 }

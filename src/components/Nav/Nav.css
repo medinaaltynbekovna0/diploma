@@ -1,0 +1,18 @@
+.Nav ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Nav ul li a {
+	color: tomato;
+	padding: 10px;
+	display: block;
+}
+
+.Nav ul li a:hover {
+	color: blue;
+	text-decoration: none;
+  
+}
