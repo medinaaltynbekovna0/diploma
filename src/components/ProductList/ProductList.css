@@ -1,0 +1,14 @@
+.ProductList .Product {
+	display: flex;
+	flex-direction: column;
+	max-width: 200px;
+}
+
+.ProductList .Product img{
+	width: 100%;
+
+}
+img {
+	height: 500px;
+	width: 300px;
+}
