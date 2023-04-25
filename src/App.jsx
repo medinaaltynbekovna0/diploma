@@ -4,17 +4,21 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
-import { categoryCollection, onAuthChange, productCollection } from "./firebase";
+import {
+  categoryCollection,
+  onAuthChange,
+  orderCollection,
+  productCollection,
+} from "./firebase";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import Orders from "./pages/Ordrer";
 
-
 export const AppContext = createContext({
   categories: [],
   products: [],
-  orders:[],
+  orders: [],
 
   // корзина
   cart: {},
@@ -81,7 +85,6 @@ export default function App() {
       setProducts(newProducts);
     });
 
-
     // получить продукты из списка продуктов
     getDocs(orderCollection).then((snapshot) => {
       // продукты будут храниться в snapshot.docs
@@ -100,14 +103,16 @@ export default function App() {
       setOrders(newOrders);
     });
 
-    onAuthChange(user => {
+    onAuthChange((user) => {
       setUser(user);
     });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }}>
+      <AppContext.Provider
+        value={{ categories, products, cart, setCart, user, orders }}
+      >
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
