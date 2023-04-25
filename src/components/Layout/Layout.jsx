@@ -1,7 +1,9 @@
+import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
+import Auth from "../Auth/Auth";
 
 export default function Layout(props) {
   return (
@@ -9,6 +11,8 @@ export default function Layout(props) {
       <header>
         <Logo />
         <Nav />
+        <CartLink />
+        <Auth />
       </header>
       <aside>
         <CategoryList />
