@@ -28,7 +28,7 @@ const AddCategory = () => {
 
     addDoc(categoryCollection, {
       name: name,
-      slug: name.replaceAll(" ", "-").toLocaleLowerCase(),
+      path: name.replaceAll(" ", "-").toLocaleLowerCase(),
     }).then(() => {
       setCategory("");
     });
