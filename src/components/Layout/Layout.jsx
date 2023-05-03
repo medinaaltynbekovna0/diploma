@@ -6,6 +6,7 @@ import NavToggle from "../NavToggle/NavToggle";
 import "./Layout.css";
 import Auth from "../Auth/Auth";
 import Drawer from "../Drawer/Drawer";
+import { useState } from "react";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
