@@ -1,0 +1,18 @@
+.NavToggle {
+  display: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.NavToggle .line {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: #0b1c2c;
+}
+@media (max-width: 650px) {
+  .NavToggle {
+    display: inline-block;
+  }
+}
