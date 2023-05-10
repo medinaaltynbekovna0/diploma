@@ -1,15 +1,15 @@
 .Layout {
 	max-width: 789px;
-	margin: 0 auto;
+	margin:  0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .Layout header {
-	flex-basis: 100%;
+	flex-basis: 180%;
 	flex-grow: 0;
 	flex-shrink: 0;
-	background-color: antiquewhite;
+	background-color: rgb(236, 243, 252);
 
 
 	display: flex;
@@ -18,18 +18,19 @@
 }
 
 .Layout aside {
-	flex: 20% 0 0;
-	background-color: blue;
+	flex: 180% 0 0;
+	background-color: rgb(229, 207, 248);
 }
 
 .Layout main {
-	flex: 80% 1 1;
-	background-color: violet;
+	flex: 180% 0 0;
+	background-color: rgb(195, 139, 225);
 }
 
 .Layout footer {
-	flex: 100% 0 0;
-	background-color: red;
+	flex: 180% 0 0;
+	background-color: rgb(177, 47, 179);
+	
 }
 
 @media (max-width: 650px) {
