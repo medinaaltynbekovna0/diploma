@@ -18,7 +18,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 const auth = getAuth(app);
-export const storge = getStorage(app);
+export const storage = getStorage(app);
 
 // получить список категорий (коллекция документов).
 export const categoryCollection = collection(db, 'categories');
