@@ -18,8 +18,7 @@
 }
 
 .Layout aside {
-	flex: 180% 0 0;
-	background-color: rgb(229, 207, 248);
+	flex: 30% 0 0;
 }
 
 .Layout main {
