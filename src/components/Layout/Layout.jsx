@@ -29,6 +29,9 @@ export default function Layout(props) {
       <aside>
         <CategoryList />
       </aside>
+      <div className="main-content">
+        <video className="video" autoplay="autoplay" loop muted width="100%"></video>
+      </div>
       <main>{props.children}</main>
       <footer>FOOTER</footer>
     </div>
