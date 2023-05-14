@@ -3,10 +3,7 @@ export default function About() {
     <div className="About">
       <h1>Perfume is the best thing</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-        consequuntur qui et. Sequi et quae quod eveniet corporis neque deserunt
-        voluptate pariatur, itaque distinctio nesciunt ipsum tenetur quisquam at
-        magnam.
+        People choose scents not only according to the composition by perfumers.They want to create an image and feel different.Passionate,elegant,light,romantic or domineering-all this is possible withthe help of properly selected fruit and floral notes.
       </p>
     </div>
   );
