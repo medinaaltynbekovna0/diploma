@@ -6,10 +6,10 @@
 }
 
 .Layout header {
-	flex-basis: 180%;
+	flex-basis: 80%;
 	flex-grow: 0;
 	flex-shrink: 0;
-  background-image:url();
+  /*background-image:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);*/
 
 
 	display: flex;
@@ -19,19 +19,22 @@
 
 .Layout aside {
 	flex: 30% 0 0;
+	background:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);
 }
 
-.Layout main {
-	flex: 200;
-	background-image:url(https://i.pinimg.com/564x/eb/10/78/eb10788f5d4d9c731977e28b39d724b2.jpg);
+.Layout main  {
+	background:url();
 }
 
 .Layout footer {
-	flex: 180% 0 0;
+	flex: 80% 0 0;
   padding: 30px;
   text-align: center;
   font-size: 30px;
-	
+}
+
+.Contacts {
+	vertical-align: auto;
 }
 
 @media (max-width: 650px) {
