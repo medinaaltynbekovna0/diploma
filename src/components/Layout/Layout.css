@@ -28,6 +28,10 @@
 
 .Layout footer {
 	flex: 180% 0 0;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+	
 }
 
 @media (max-width: 650px) {
