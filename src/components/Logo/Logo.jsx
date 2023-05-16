@@ -6,7 +6,7 @@ export default function Logo(){
 	return(
 		<div className="Logo">
 			<NavLink to="/">
-			<img src="https://i.pinimg.com/564x/bd/fd/36/bdfd364c3c72887320daf69d67afd3c6.jpg" alt="" />
+			<img src="https://i.pinimg.com/564x/52/40/6e/52406eee46263f58060dfed5f9c9a9db.jpg" alt="" />
 			</NavLink>
 		</div>
 	);
