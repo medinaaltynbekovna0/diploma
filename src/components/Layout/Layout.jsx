@@ -23,17 +23,20 @@ export default function Layout(props) {
         <Drawer open={drawerOpen} toggle={toggleDrawer} />
         <CartLink />
         <Auth />
+
+        <footer>Footer</footer>
       
 
       </header>
       <aside>
         <CategoryList />
       </aside>
+      
+      
       <main>{props.children}</main>
-      <footer>
       <div className="Contacts">
     </div>
-      </footer>
+  
     </div>
   );
 }
