@@ -12,6 +12,7 @@ import Orders from "./pages/Orders";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 
+
 export const AppContext = createContext({
   categories: [],
   products: [],
@@ -57,14 +58,15 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h2>About</h2>} />
+            <Route path="/about" element={<About/>} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/orders" element={<Orders />} />
             <Route path="/contacts" element={<Contacts />} />
-            <Route path="/about" element={<About />} />
+            
+        
 
 
             <Route path="*" element={<NotFound />} />
