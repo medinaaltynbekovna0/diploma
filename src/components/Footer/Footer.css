@@ -2,7 +2,18 @@
 	box-sizing: border-box;
 }
 body{
-	width: 100px;
-	min-height: 100px;
-	padding: 20px;
+	flex: 80% 0 0;
+}
+
+.Footer {
+	flex: 20% 0 0;
+}
+footer{
+	background: red;
+	width: 100%;
+}
+footer.footer img{
+    display: block;
+		width: 200px;
+
 }
