@@ -7,6 +7,7 @@ import "./Layout.css";
 import Auth from "../Auth/Auth";
 import Drawer from "../Drawer/Drawer";
 import { useState } from "react";
+import Footer from "../Footer/Footer";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -23,20 +24,15 @@ export default function Layout(props) {
         <Drawer open={drawerOpen} toggle={toggleDrawer} />
         <CartLink />
         <Auth />
-
-        <footer>Footer</footer>
-      
-
       </header>
       <aside>
         <CategoryList />
       </aside>
-      
-      
+
       <main>{props.children}</main>
-      <div className="Contacts">
-    </div>
-  
+      <footer>
+      <Footer/>
+      </footer>
     </div>
   );
 }
