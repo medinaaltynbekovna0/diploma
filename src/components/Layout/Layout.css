@@ -7,6 +7,7 @@
 
 .Layout header {
 	flex-basis: 80%;
+	text-align: center;
 	flex-grow: 0;
 	flex-shrink: 0;
   /*background-image:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);*/
@@ -18,23 +19,19 @@
 }
 
 .Layout aside {
-	flex: 30% 0 0;
+	flex: 20% ;
 	background:url(https://i.pinimg.com/564x/00/d3/be/00d3be629f7a7045598ba1fe42819637.jpg);
 }
+
 
 .Layout main  {
 	background:url();
 }
 
-.Layout footer {
-	flex: 80% 0 0;
-  padding: 30px;
-  text-align: center;
-  font-size: 30px;
-}
 
 .Contacts {
 	vertical-align: auto;
+	text-align: center;
 }
 
 @media (max-width: 650px) {
@@ -42,3 +39,7 @@
     display: none;
   }
 } 
+
+.About .image{
+	width: 100px;
+}
