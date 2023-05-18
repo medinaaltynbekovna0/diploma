@@ -1,13 +1,8 @@
 import "./Footer.css";
-import { AppContext } from "../../App";
-
 function Footer() {
-	const { categories } = useContext(AppContext);
-}
-	return (
-			<footer className='footer'>
-							<h4 className="footer-heading"></h4>
-				
-   </footer>
-	)
-	export default Footer;
+return (
+  <div className="footer">
+		<img src="https://i.pinimg.com/564x/a4/15/70/a415705b2003ddc3c3ef899aedbeff70.jpg"></img>
+  </div>
+);}
+export default Footer;
