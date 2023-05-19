@@ -28,6 +28,10 @@
 	background:url();
 }
 
+.Layout footer {
+	flex: 80% 0 0;
+}
+
 
 .Contacts {
 	vertical-align: auto;
