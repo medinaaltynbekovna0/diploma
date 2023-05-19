@@ -4,16 +4,8 @@
 body{
 	flex: 80% 0 0;
 }
-
-.Footer {
-	flex: 20% 0 0;
-}
 footer{
-	background: red;
 	width: 100%;
+	background-color: rgb(156, 153, 153);
 }
-footer.footer img{
-    display: block;
-		width: 200px;
 
-}
