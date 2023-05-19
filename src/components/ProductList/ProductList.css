@@ -1,11 +1,27 @@
 .ProductList .Product {
-	display: flex;
-	flex-direction: column;
-	max-width: 100px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  
+ 
+}
+.ProductList .Product img {
+  width: 80%;
+   float: left; 
+   margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px; 
+   height: 150px; 
+   overflow: hidden;
+
+  
 }
 
-.ProductList .Product img{
-	width: 100%;
-	display: flex;
+
+.ProductList{
+  display: flex;
+flex-wrap: wrap;
+
+margin: 15px;
 
 }
