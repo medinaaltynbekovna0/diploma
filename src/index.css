@@ -1,13 +1,13 @@
- * {
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 
- }
+}
 
- body {
-   margin: 0;
- }
+body {
+  margin: 0;
+}
 
-  .About .YSL {
-  width: 100px;
-  float: left;
- }
+ .About .YSL {
+ width: 100px;
+ float: left;
+}
