@@ -13,15 +13,17 @@
     width: 150px; 
    height: 150px; 
    overflow: hidden;
-
+   box-shadow: 1px 1px 1px 5px rgb(rgb(215, 130, 212));
+  transition: calc(1 1 1);
   
 }
 
 
 .ProductList{
   display: flex;
-flex-wrap: wrap;
-
-margin: 15px;
-
+  flex-wrap: wrap;
+  font-family: Open Sans,Helvetica Neue;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: space-around;
 }
