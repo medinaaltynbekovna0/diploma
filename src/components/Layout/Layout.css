@@ -16,26 +16,31 @@
 	display: flex;
   justify-content: space-between;
   align-items: center;
+	flex-wrap: wrap;
 }
 
 .Layout aside {
 	flex: 20% ;
-	background:url(https://i.pinimg.com/564x/00/d3/be/00d3be629f7a7045598ba1fe42819637.jpg);
+	background: url();
+	flex-wrap: wrap;
 }
 
 
 .Layout main  {
 	background:url();
+	flex-wrap: wrap;
 }
 
 .Layout footer {
 	flex: 80% 0 0;
+	flex-wrap: wrap;
 }
 
 
 .Contacts {
 	vertical-align: auto;
 	text-align: center;
+	flex-wrap: wrap;
 }
 
 @media (max-width: 650px) {
@@ -43,7 +48,3 @@
     display: none;
   }
 } 
-
-.About .image{
-	width: 100px;
-}
