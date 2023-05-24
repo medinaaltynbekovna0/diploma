@@ -5,3 +5,40 @@
 	  background:rgb(251, 249, 249);
 	}
 	
+	.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.mx-auto {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.section-heading {
+	text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+	display: block;
+	font-size: 1rem;
+	font-weight: 800;
+}
+.section-heading .section-heading-lower {
+	display: block;
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.cta {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: rgba(200, 201, 202, 0.9);
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
