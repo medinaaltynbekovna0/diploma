@@ -6,12 +6,14 @@
 }
 
 .Nav ul li a {
-	color: tomato;
+	color: rgb(247, 158, 207);
 	padding: 10px;
 	display: block;
 }
 
 .Nav ul li a:hover {
-	color: blue;
+	color: rgb(111, 111, 119);
 	text-decoration: none;
+	list-style-type: none;
 }
+
