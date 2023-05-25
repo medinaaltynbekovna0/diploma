@@ -2,8 +2,11 @@
 		box-sizing: border-box;
 	}
 	body{
-	  background:rgb(251, 249, 249);
+		background: white;
 	}
+
+	  /*background:url(https://top-fon.com/uploads/posts/2021-07/1626982055_17-p-fon-nezhno-rozovii-tsvet-18.jpg);*/
+	
 	
 	.row {
     --bs-gutter-x: 1.5rem;
@@ -17,6 +20,19 @@
 .mx-auto {
 	margin-right: auto !important;
 	margin-left: auto !important;
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.content-section {
+  float: left;
+  width: 55%;
+
 }
 .section-heading {
 	text-transform: uppercase;
