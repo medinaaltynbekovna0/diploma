@@ -20,8 +20,7 @@ function Footer() {
 			<a class="" href="/categories/Men"><span>Men</span></a>
 			</li>
 			</ul>
-
-        <div class="footer-column">
+        </div><div class="footer-column">
           <h4 class="footer-heading">Menu</h4>
           <ul class="footer-list">
             <li>
@@ -44,8 +43,7 @@ function Footer() {
                 Contacts
               </a>
             </li>
-          </ul>
-        </div>
+						</ul>
       </div>
     <div class="footer-column">
       <h3>Contact Us</h3>
