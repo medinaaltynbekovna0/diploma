@@ -24,7 +24,7 @@ export default function Home() {
                   information about our mood; becomes a factor that raises
                   self-esteem, makes you feel more attractive
                 </p>
-              </div>
+                </div>
             </div>
           </div>
         </div>

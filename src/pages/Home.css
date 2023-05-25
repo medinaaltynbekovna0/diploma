@@ -4,9 +4,10 @@
 
 	body {
 		background: white;
+		/*background:url(https://img.freepik.com/premium-vector/seamless-pattern-with-beautiful-bottles-of-perfume-women-s-perfume-vector_260787-432.jpg);*/
 	}
 
-	/*background:url(https://top-fon.com/uploads/posts/2021-07/1626982055_17-p-fon-nezhno-rozovii-tsvet-18.jpg);*/
+	
 
 
 	.row {
@@ -56,7 +57,8 @@
 	.cta {
 		padding-top: 5rem;
 		padding-bottom: 5rem;
-		background-color: rgba(200, 201, 202, 0.9);
+		background: url(https://i.pinimg.com/564x/1e/c9/61/1ec9617877d6b70a18d8fcb9ebaec7d0.jpg);
+		text-emphasis-color: rgb(173, 160, 160);
 	}
 
 	.mb-0 {
