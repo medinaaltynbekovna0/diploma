@@ -39,6 +39,7 @@ body{
 .footer-container {
     display: flex;
     justify-content: space-evenly;
+		flex: 80% 0 0;
 }
 
 .footer-column a {
@@ -88,7 +89,7 @@ padding: 0 20px;
   
   @media screen and (max-width: 768px) {
     .footer-column {
-      flex-basis: 50%;
+      flex-basis: 80%;
     }
   }
   
