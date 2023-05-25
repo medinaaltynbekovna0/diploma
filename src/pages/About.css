@@ -9,7 +9,9 @@
 	align-self: stretch;
 }
 
-.row {
+
+
+/*.row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -54,4 +56,4 @@
 }
 .col-12 {
   flex: 0 0 100%;
-}
+}*/
