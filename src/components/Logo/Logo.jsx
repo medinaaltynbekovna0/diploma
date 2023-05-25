@@ -6,7 +6,7 @@ export default function Logo(){
 	return(
 		<div className="Logo">
 			<NavLink to="/">
-			<img src="https://img.freepik.com/free-vector/perfume-shop-logo-template-beauty-business-branding-design-black-and-white-vector_53876-156447.jpg?w=2000" alt="" />
+			<img src="https://thumbs.dreamstime.com/t/doodle-sketch-perfume-bottle-illustration-aroma-bottle-icon-doodle-sketch-perfume-bottle-illustration-aroma-retro-bottle-163032466.jpg"alt="" />
 			</NavLink>
 		</div>
 	);
