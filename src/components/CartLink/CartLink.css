@@ -8,6 +8,11 @@
 
 .CartLink {
 	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.CartLink a{
+	display: block;
 }
 a {
 	text-decoration: none;
