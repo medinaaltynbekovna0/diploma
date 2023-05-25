@@ -9,7 +9,7 @@ export default function About() {
         {/*<img src="https://i.pinimg.com/564x/80/8d/7f/808d7f8af18f2b61bcc6e7267a8c55d7.jpg"></img>*/}
       </div>
 
-      <div class="row">
+      <div className="row">
         <div className="col-6">
           <div className="about">
             {/*<img src="https://i.pinimg.com/236x/1b/92/e1/1b92e1420ff012479a458810493739cd.jpg"></img>*/}
