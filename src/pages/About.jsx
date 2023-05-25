@@ -24,7 +24,7 @@ export default function About() {
               benzoin and white musk.
             </p>
         </div>
-            <img src=""></img>
+            <img src="https://i.pinimg.com/564x/13/77/c5/1377c56ee18f20aea47079792a0ec8bf.jpg"></img>
           </div>
         </div>
       </div>
