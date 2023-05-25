@@ -33,11 +33,11 @@ function Footer() {
                 About
               </a>
             </li>
-						<li>
+						{/*<li>
               <a class="delivery" href="/delivery">
                 Delivery
               </a>
-            </li>
+            </li>*/}
             <li>
               <a class="contacts" href="/contacts">
                 Contacts

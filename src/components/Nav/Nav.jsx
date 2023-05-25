@@ -11,9 +11,9 @@ export default function Nav() {
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
-        <li>
+        {/*<li>
           <NavLink to="/delivery">Delivery</NavLink>
-        </li>
+        </li>*/}
         <li>
           <NavLink to="/contacts">Contacts</NavLink>
         </li>
