@@ -4,47 +4,22 @@
 body{
 	flex: 80% 0 0;
 }
-/*footer{
-	background-color: rgb(160, 158, 158);
-	display: block;
-	font-family: Arial, sans-serif;
-	list-style-type: none;
-	}
-
-	.footer-column {
-    flex-basis: 25%;
-    margin-bottom: 40px;
-    text-align: center;
-	}
-		
-	.footer .container {
-		margin: auto;
-		padding-top: 100px;
-		display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-		}
-		
-		.content-section {
-			float: left;
-			width: 55%;
-		
-		}
-	*/
 	footer {
     box-shadow: 0 0 10px;
     align-items: center;
     margin: 0 5px; 
+		background-color: rgb(151, 147, 147);
 }
 .footer-container {
     display: flex;
     justify-content: space-evenly;
 		flex: 80% 0 0;
+		color: rgb(201, 169, 169)
+		
 }
 
 .footer-column a {
     text-decoration: none;
-    color: black;
     display: block;
     margin-bottom: 10px;
 }
