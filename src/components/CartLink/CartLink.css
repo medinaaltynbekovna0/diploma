@@ -5,3 +5,14 @@
 	text-decoration: none;
 	color: rgb(128, 97, 113);
 }
+
+.CartLink {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.CartLink img {
+	width: 40px;
+}

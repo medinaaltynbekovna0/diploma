@@ -11,8 +11,11 @@ export default function CartLink() {
   return (
     <div className="CartLink">
       <Link to="/cart">
-        Cart ({total})
-      </Link>
+     ({total})
+        </Link>
+        <a href="/cart">
+        <img src="https://thumbs.dreamstime.com/b/shopping-cart-icon-cdr-171899296.jpg"></img>
+        </a>
     </div>
   );
 }
