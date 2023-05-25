@@ -7,13 +7,13 @@
 }
 .ProductList .Product img {
   width: 80%;
-   float: left; 
-   margin-right: 10px;
-    margin-bottom: 10px;
-    width: 150px; 
-   height: 150px; 
-   overflow: hidden;
-   box-shadow: 1px 1px 1px 5px rgb(rgb(215, 130, 212));
+  float: left; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 150px; 
+  height: 150px; 
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 5px rgb(rgb(215, 130, 212));
   transition: calc(1 1 1);
   
 }
@@ -26,4 +26,6 @@
   font-size: 20px;
   font-weight: 500;
   justify-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
 }
