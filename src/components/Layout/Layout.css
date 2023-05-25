@@ -1,6 +1,6 @@
 .Layout {
 	max-width: 789px;
-	margin:  0 auto;
+	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -10,29 +10,32 @@
 	text-align: center;
 	flex-grow: 0;
 	flex-shrink: 0;
-  /*background-image:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);*/
+	/*background-image:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);*/
 
 
 	display: flex;
-  justify-content: space-between;
-  align-items: center;
+	justify-content: space-between;
+	align-items: center;
 	flex-wrap: wrap;
 }
 
 .Layout aside {
-	flex: 20% ;
+	flex: 20%;
 	background: url();
 	flex-wrap: wrap;
 }
 
 
-.Layout main  {
-	background:url();
+.Layout main {
+	background: url();
 	flex-wrap: wrap;
+	min-height: 350px;
+	padding-bottom: 30px;
+	width: 100%;
 }
 
 .Layout footer {
-	flex: 80% 0 0;
+	flex: 100% 0 0;
 	flex-wrap: wrap;
 }
 
@@ -44,7 +47,7 @@
 }
 
 @media (max-width: 650px) {
-  .Layout header > .Nav {
-    display: none;
-  }
-} 
+	.Layout header>.Nav {
+		display: none;
+	}
+}
