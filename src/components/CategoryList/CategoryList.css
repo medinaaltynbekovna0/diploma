@@ -2,3 +2,11 @@
 	box-sizing: border-box;
 	list-style-type: none;
 }
+.CategoryList ul li { 
+	color: rgb(130, 84, 84);
+}
+
+.CategoryList ul li:hover {
+	color: rgb(128, 97, 113);
+}
+
