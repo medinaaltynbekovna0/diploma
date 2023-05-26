@@ -6,11 +6,11 @@
 }
 
 .Layout header {
-	flex-basis: 80%;
+	flex-basis: 100%;
 	text-align: center;
 	flex-grow: 0;
 	flex-shrink: 0;
-	/*background-image:url(https://i.pinimg.com/564x/7d/ec/fd/7decfddcb2bac947b51e2f70d5add749.jpg);*/
+	background-color: white;
 
 
 	display: flex;
@@ -23,6 +23,7 @@
 	flex: 20%;
 	background: url();
 	flex-wrap: wrap;
+	background-color: antiquewhite;
 }
 
 
