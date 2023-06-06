@@ -59,9 +59,17 @@
 		background: url(https://i.pinimg.com/564x/1e/c9/61/1ec9617877d6b70a18d8fcb9ebaec7d0.jpg);
 		text-emphasis-color: rgb(173, 160, 160);
 	}
-
+	.contacts_map  {
+    height: 100%;
+    height: 400px;
+		margin: 5%;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+};
 	.mb-0 {
-		margin-bottom: 0 !important;
+		margin-bottom: 10px !important;
 		flex: 100%;
 	}
 
