@@ -60,9 +60,9 @@
 		text-emphasis-color: rgb(173, 160, 160);
 	}
 	.contacts_map  {
-    height: 100%;
-    height: 400px;
+		width: 100%;
 		margin: 5%;
+		flex: 100% 0 0;
     border-top-width: 0px;
     border-bottom-width: 0px;
     border-left-width: 0px;
